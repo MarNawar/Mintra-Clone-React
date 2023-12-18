@@ -27,7 +27,7 @@ export const items = [
         return_period: 14,
         delivery_date: '10 Oct 2023',
         rating: {
-            stars: 4.3,
+            stars: 3.4,
             count: 24,
         },
     },
@@ -59,7 +59,7 @@ export const items = [
         return_period: 14,
         delivery_date: '10 Oct 2023',
         rating: {
-            stars: 5.0,
+            stars: 2.0,
             count: 10,
         },
     },
@@ -75,7 +75,7 @@ export const items = [
         return_period: 14,
         delivery_date: '10 Oct 2023',
         rating: {
-            stars: 4.2,
+            stars: 1.2,
             count: 3500,
         },
     },
@@ -105,7 +105,7 @@ export const items = [
         current_price: 639,
         discount_percentage: 60,
         rating: {
-            stars: 4.2,
+            stars: 3.2,
             count: 388,
         },
     },
@@ -121,7 +121,7 @@ export const items = [
         return_period: 14,
         delivery_date: '10 Oct 2023',
         rating: {
-            stars: 4.2,
+            stars: 5.0,
             count: 5200,
         },
     }
