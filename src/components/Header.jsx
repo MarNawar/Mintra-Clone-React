@@ -14,7 +14,7 @@ function Header() {
     
     const debouncedSearch = useDebounce((value) => {
         dispatch(filterActions.searchQuery(value));
-    }, 3000);
+    }, 500);
 
     return (
         <header>
