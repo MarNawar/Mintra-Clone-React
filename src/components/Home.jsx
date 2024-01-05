@@ -36,6 +36,7 @@ function Home() {
   const productsToDisplay = transformProducts();
 
   
+  
   return (
     <main>
       {item.loading===true?<Loader/>:
