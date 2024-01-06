@@ -37,12 +37,12 @@ function Header() {
                 }} placeholder="Search for products, brands and more"/>
             </div>
             <div className="action_bar">
-                <div className="action_container">
+                <div className="action_container profile">
                     <span className="material-symbols-outlined action_icon">person</span>
                     <span className="action_name">Profile</span>
                 </div>
 
-                <div className="action_container">
+                <div className="action_container wishlist">
                     <span className="material-symbols-outlined action_icon">favorite</span>
                     <span className="action_name">Wishlist</span>
                 </div>

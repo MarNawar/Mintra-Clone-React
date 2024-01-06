@@ -56,7 +56,7 @@ header{
 
 .search_bar{
   margin: 20px;
-  min-width: 200px;
+  min-width:200px;
   width: 35%;
   display: flex;
   align-items: center;
@@ -88,7 +88,7 @@ header{
 
 .action_bar{
   display: flex;
-  min-width: 200px;
+  min-width: 100px;
   justify-content: space-evenly;
   align-items: center;
 }
@@ -112,6 +112,9 @@ header{
   font-weight: 700;
   color: #000;
 }
+
+
+
 
 /* Main section */
 .banner_container {
@@ -424,4 +427,45 @@ header{
 .quantites > label{
   font-size: 15px;
   cursor: pointer;
+}
+
+
+
+
+
+
+
+
+@media (min-width: 301px) and (max-width:750px){
+  .nav_bar, .profile, .wishlist{
+    display: none;
+  }  
+  .footer_container{
+    padding: 30px 50px 40px 50px;
+    background: #FAFBFC;
+    display: grid;
+    grid-template-columns: 200px;
+    column-gap:150px;
+    row-gap: 75px;
+    justify-content: center;
+  }
+  .search_bar{
+    margin: 20px;
+    width:50px;
+    width: 25%;
+    display: flex;
+    align-items: center;
+  }
+  .search_input{
+    flex-grow: 1;
+    background-color: #f5f5f6;
+    color: #696e79;
+    font-size: 14px;
+    height: 40px;
+    padding: 8px 10px 10px;
+    outline: none;
+    border: 1px solid #f5f5f6;
+    border-radius: 0px 4px 4px 0px;
+    border-left: none;
+  }
 }
